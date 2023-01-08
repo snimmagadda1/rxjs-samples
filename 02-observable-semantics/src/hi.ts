@@ -2,6 +2,7 @@ import { Observable } from 'rxjs';
 
 // input to observable is a function w/ a single input of type Subscriber
 export const observable = new Observable(function subscribe(subscriber) {
+    subscriber.next('Emitting values')
 
     // emit hi every sec
     const id = setInterval(() => {
