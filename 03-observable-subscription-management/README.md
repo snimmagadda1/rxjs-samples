@@ -1,7 +1,9 @@
 # Hello World
 
-This is a simple hello world after doing a readthrough of the RxJS [intro](https://rxjs.dev/guide/overview) The example uses the timer creation operator to init an observable that emits a value each second, with incrementing output. The observable is used to display the amount of seconds the user has spent on the page. The HTML DOM Document Object is query and modify the contents of the header element.
+Observables offer the benefit of being able to be canceled, allowing the consumer to inform the producer that they no longer wish to receive any more values.
+
+When you subscribe to an observable, a subscription object is returned. You will notice that the complete callback of the observer is not called on unsubscribe(). The complete callback is only fired for complete notifications that occur within the observable.
 
 ## Useful links
 
-- [timer](https://rxjs.dev/api/index/function/timer)
+- [Subscriptions](https://rxjs.dev/guide/subscription)
