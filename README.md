@@ -20,3 +20,4 @@ The example will be accessible on your local host the default port of <http://lo
 1. [Hello World](https://github.com/snimmagadda1/rxjs-examples/tree/main/01-rxjs-hello-world)
 2. [Observable Semantics](https://github.com/snimmagadda1/rxjs-examples/tree/main/02-observable-semantics)
 3. [Observable Subscription Management](https://github.com/snimmagadda1/rxjs-examples/tree/main/03-observable-subscription-management)
+4. [Creating Observables from DOM Events](https://github.com/snimmagadda1/rxjs-examples/tree/main/04-creating-observables-from-dom-events)
