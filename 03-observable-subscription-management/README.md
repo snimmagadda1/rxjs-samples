@@ -1,4 +1,4 @@
-# Hello World
+# Observable Subscription Management
 
 Observables offer the benefit of being able to be canceled, allowing the consumer to inform the producer that they no longer wish to receive any more values.
 
