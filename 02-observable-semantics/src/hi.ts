@@ -11,6 +11,6 @@ export const observable = new Observable(function subscribe(subscriber) {
 
     // send complete signal to subscriber after 10 secs
     setTimeout(() => {
-        subscriber.complete();
+        subscriber.complete(); // invokes the copmlete() function of observer
     }, 10000)
 });
