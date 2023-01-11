@@ -2,7 +2,7 @@
 
 Implementing an input with autocomplete or type ahead functionality can be trivial with the declarative nature of RxJS.
 
-Here I rework the ['Autocomplete' implementation](https://www.w3schools.com/howto/howto_js_autocomplete.asp) from w3schools to be reactive with less than 30 lines of code.
+Here I rework the ['Autocomplete' implementation](https://www.w3schools.com/howto/howto_js_autocomplete.asp) from w3schools to be reactive. Doing so turned a verbose implementation to less than 30 lines of code.
 
 ## Useful links
 
