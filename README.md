@@ -21,3 +21,4 @@ The example will be accessible on your local host the default port of <http://lo
 2. [Observable Semantics](https://github.com/snimmagadda1/rxjs-examples/tree/main/02-observable-semantics)
 3. [Observable Subscription Management](https://github.com/snimmagadda1/rxjs-examples/tree/main/03-observable-subscription-management)
 4. [Creating Observables from DOM Events](https://github.com/snimmagadda1/rxjs-examples/tree/main/04-creating-observables-from-dom-events)
+5. [Reactive Autocomplete Input](https://github.com/snimmagadda1/rxjs-examples/tree/main/05-reactive-autocomplete-input)
