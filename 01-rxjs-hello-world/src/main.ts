@@ -1,4 +1,4 @@
-import './style.css'
+import './style.css';
 import { timer } from 'rxjs';
 
 const timerElement: HTMLElement = document.querySelector<HTMLHeadElement>('#timer')!;

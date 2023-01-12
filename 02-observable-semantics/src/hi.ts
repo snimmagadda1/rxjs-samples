@@ -2,7 +2,7 @@ import { Observable } from 'rxjs';
 
 // input to observable is a function w/ a single input of type Subscriber
 export const observable = new Observable(function subscribe(subscriber) {
-    subscriber.next('Emitting values')
+    subscriber.next('Emitting values');
 
     // emit hi every sec
     const id = setInterval(() => {
@@ -12,5 +12,5 @@ export const observable = new Observable(function subscribe(subscriber) {
     // send complete signal to subscriber after 10 secs
     setTimeout(() => {
         subscriber.complete(); // invokes the copmlete() function of observer
-    }, 10000)
+    }, 10000);
 });

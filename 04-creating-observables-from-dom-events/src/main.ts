@@ -1,5 +1,5 @@
 import { fromEvent } from 'rxjs';
-import './style.css'
+import './style.css';
 
 const observer = {
     next: (val: any) => console.log('button clicked', val),

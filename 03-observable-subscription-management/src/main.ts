@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import './style.css'
+import './style.css';
 
 const observable = new Observable(subscriber => {
     let count = 0;
@@ -22,5 +22,5 @@ const observer = {
 const subscription = observable.subscribe(observer);
 
 setTimeout(() => {
-    subscription.unsubscribe()
+    subscription.unsubscribe();
 }, 10000);

@@ -1,5 +1,5 @@
-import './style.css'
-import { observable } from './hi'
+import './style.css';
+import { observable } from './hi';
 import { Observer } from 'rxjs';
 
 // no output
@@ -17,12 +17,12 @@ observable2.subscribe(out => {
 // explicit observer syntax
 const observer1: Observer<any> = {
     next: (x: any) => {
-        console.log(`Observer 1 saw ${x}`)
+        console.log(`Observer 1 saw ${x}`);
     },
     error: (e: any) => {
-        console.error(`Observer 1 error ${e}`)
+        console.error(`Observer 1 error ${e}`);
     },
-    complete: () => { console.log('Observer 1 completed') }
+    complete: () => { console.log('Observer 1 completed'); }
 };
 
 observable1.subscribe(observer1);

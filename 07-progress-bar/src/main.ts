@@ -1,4 +1,4 @@
-import './style.css'
+import './style.css';
 import { fromEvent } from 'rxjs';
 import { map } from 'rxjs/operators';
 
