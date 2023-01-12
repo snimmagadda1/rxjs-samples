@@ -1,4 +1,4 @@
-# rxjs-examples
+# RxJS-examples
 
 This is a reference collection of examples to learn RxJS. Let's be honest, RxJS has a learning curve. When starting with RxJS, I noticed an abundance of examples specific to Angular. I found the docs very comprehensive but also overwhelming - the library is huge, and in my opinion is almost a DSL in itself. These examples are meant to document useful patterns and elucidate the benefits of reactive programming with RxJS, and are the output of personal use and resarch of the libary.
 
