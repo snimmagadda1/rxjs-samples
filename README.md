@@ -1,4 +1,4 @@
-# RxJS-examples
+# RxJS-samples
 
 <img src="./rxjs.svg" alt="RxJS logo" width="100px" height="100px">  
 <br/>
