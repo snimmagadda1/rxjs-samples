@@ -25,3 +25,4 @@ The example will be accessible on your local host the default port of <http://lo
 4. [Creating Observables from DOM Events](https://github.com/snimmagadda1/rxjs-examples/tree/main/04-creating-observables-from-dom-events)
 5. [Operators](https://github.com/snimmagadda1/rxjs-examples/tree/main/05-operators)
 6. [Reactive Autocomplete Input](https://github.com/snimmagadda1/rxjs-examples/tree/main/06-reactive-autocomplete-input)
+7. [Progress Bar](https://github.com/snimmagadda1/rxjs-examples/tree/main/07-progress-bar)
