@@ -18,7 +18,7 @@ npm install
 npm run dev
 ```
 
-The example will be accessible on your local host the default port of <http://localhost:5173>.
+The example will be accessible on your local host at the default port of <http://localhost:5173>.
 
 ## Contents
 
