@@ -9,6 +9,26 @@ Implementing exponential backoff with promises and other methods becomes complex
 5. If the guiding observable completes or throws an error, send the complete or error notification to the observer
 6. Once the source observable completes, send the complete notification to the observer
 
+```yaml
+Retry time graph:
+
+
+ 10000|
+      |
+  8000|                 •
+      |                 Retry attempt 3
+  6000|
+      |
+  4000|        •
+      |        Retry attempt 2
+  2000|
+      |
+  1000| •
+      | Retry attempt 1
+      +---------------------
+         1       2       3
+```
+
 ## Useful links
 
 - [Angular blog](https://angular.io/guide/practical-observable-usage#exponential-backoff)
