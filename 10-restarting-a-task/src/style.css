@@ -1,0 +1,75 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  gap: 10px;
+}
+
+.btn {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 13px;
+  height: 30px;
+  background-color: #9147ff;
+  color: white;
+  padding: 0 20px;
+}
+
+.btn:hover {
+  background-color: #772ce8;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border: 5px solid gold;
+  background-color: blueviolet;
+  text-align: center;
+  color: white;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
