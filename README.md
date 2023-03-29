@@ -29,3 +29,6 @@ The example will be accessible on your local host the default port of <http://lo
 5. [Operators](https://github.com/snimmagadda1/rxjs-examples/tree/main/05-operators)
 6. [Reactive Autocomplete Input](https://github.com/snimmagadda1/rxjs-examples/tree/main/06-reactive-autocomplete-input)
 7. [Progress Bar](https://github.com/snimmagadda1/rxjs-examples/tree/main/07-progress-bar)
+8. [HTTP Polling](https://github.com/snimmagadda1/rxjs-samples/tree/main/08-http-polling)
+9. [HTTP Retry with Exponential Backoff](https://github.com/snimmagadda1/rxjs-samples/tree/main/09-http-retry-with-backoff)
+10.[Restarting a Task](https://github.com/snimmagadda1/rxjs-samples/tree/main/10-restarting-a-task)
